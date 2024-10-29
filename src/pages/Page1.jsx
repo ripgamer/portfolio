@@ -19,10 +19,10 @@ function Page1() {
         setvalY((centerY - e.clientY) / 20);
 
         gsap.to(tiltRef.current, {
-            duration: 10,
+            duration: 3,
             rotateY: valX,
             rotateX: valY,
-            ease: 'elastic',
+            ease: 'powerout4',
           });
 
         tiltRef.current.style.transform = `rotateY(${valX}deg) rotateX(${valY}deg)`;
