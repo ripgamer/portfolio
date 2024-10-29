@@ -31,3 +31,15 @@ body {
   font-family: anzo5;
   src: url(./assets/font/anzo5.woff2)
 }
+
+
+#page1-in{
+  
+  perspective: 1000px;
+}
+
+#tiltdiv{
+  width: fit-content;
+  
+transform: rotateY(90deg);
+}
