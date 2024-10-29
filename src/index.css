@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@font-face{
+  font-family: anzo0;
+  src: url(./assets/font/anzo0.woff2)
+}
+@font-face{
+  font-family: anzo1;
+  src: url(./assets/font/anzo1.woff2)
+}
+@font-face{
+  font-family: anzo2;
+  src: url(./assets/font/anzo2.woff2)
+}
+@font-face{
+  font-family: anzo3;
+  src: url(./assets/font/anzo3.woff2)
+}
+@font-face{
+  font-family: anzo4;
+  src: url(./assets/font/anzo4.woff2)
+}
+@font-face{
+  font-family: anzo5;
+  src: url(./assets/font/anzo5.woff2)
+}
