@@ -38,20 +38,9 @@ function Page1() {
         >
             <div id='page1-in' className='absolute py-11 px-16 w-full'>
                 <img className='h-20' src='./src/assets/img/logo.png' alt='' />
-                {/* <Tilttext/> */}
+                <Tilttext r={tiltRef}/>
 
-                <div
-                    id='tiltdiv'
-                    ref={tiltRef}
-                    className='text-white text-left font-[anzo2] text-[4.2vw] mt-56'
-                    style={{ transform: 'rotateY(0deg) rotateX(0deg)' }}
-                >
-                    <h1 className='leading-[4vw]'>
-                        I AM<span className='text-black'> DARK MODE</span>™
-                    </h1>
-                    <h1 className='text-[8.5vw] leading-[7vw]'>DESIGNER</h1>
-                    <h1 className='leading-[4vw]'>TO HIRE</h1>
-                </div>
+                
 
                 <Page1_bottomtext />
             </div>
