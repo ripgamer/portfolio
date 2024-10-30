@@ -45,7 +45,7 @@ function Page1() {
                 <Page1_bottomtext />
             </div>
             {/*  worke on responsiveness of the image */}
-            <div className='h-full w-full shadow-black shadow-lg bg-[url(/img/akbg.png)] sm:bg-cover bg-contain rounded-[40px]'></div>
+            <div className='h-full w-full shadow-black shadow-lg bg-[url(/img/akbg2.png)] sm:bg-cover bg-contain rounded-[40px]'></div>
             
         </div>
     );
