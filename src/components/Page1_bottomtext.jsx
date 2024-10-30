@@ -26,19 +26,20 @@ export class Page1_bottomtext extends Component {
     return (
       <div className='text-white w-full text-[2.25vh] text-left bottom-0 left-0 flex items-end justify-between'>
         <div className='flex flex-col'>
-          <h1 className='font-[anzo2]'>BRAND DESIGN | WEBSITE DESIGN</h1>
-          <h1 className='font-[anzo3] leading-'>BESPOKE FREELANCE</h1>
+          <h1 className='font-[anzo2]'>GRAPHICS DESIGN | WEBSITE DESIGN</h1>
+          <h1 className='font-[anzo3] leading-'>GDSC Member'23-24 | MITA'26</h1>
         </div>
         <div className='flex flex-col mt-[-10vh]'>
           <img
             ref={(el) => (this.img1 = el)}
-            className='mb-5'
-            src='./src/assets/img/wix2.png'
+            className='mb-5 w-[94px] '
+            src='./src/assets/img/gdsc.png'
             alt='Image 1'
           />
           <img
             ref={(el) => (this.img2 = el)}
-            src='./src/assets/img/wix.png'
+            className='w-[94px]'
+            src='./src/assets/img/cp.png'
             alt='Image 2'
           />
         </div>
