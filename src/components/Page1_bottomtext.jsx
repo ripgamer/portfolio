@@ -33,13 +33,13 @@ export class Page1_bottomtext extends Component {
           <img
             ref={(el) => (this.img1 = el)}
             className='mb-5 w-[94px] '
-            src='./src/assets/img/gdsc.png'
+            src='/img/gdsc.png'
             alt='Image 1'
           />
           <img
             ref={(el) => (this.img2 = el)}
             className='w-[94px]'
-            src='./src/assets/img/cp.png'
+            src='/img/cp.png'
             alt='Image 2'
           />
         </div>
