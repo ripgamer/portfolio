@@ -36,17 +36,14 @@ function Page1() {
             }}
             className='h-screen w-full bg-white px-4 py-5'
         >
-            <div id='page1-in' className='absolute py-11 px-16 w-full'>
-                <img className='h-20 ' src='/img/ak.png' alt='' />
+            <div id='page1-in' className='absolute py-11 px-10 md:px-16 w-full'>
+                <img className='h-10 md:h-20 ' src='/img/ak.png' alt='' />
                 <Tilttext r={tiltRef}/>
-
-                
 
                 <Page1_bottomtext />
             </div>
-            {/*  worke on responsiveness of the image */}
-            <div className='h-full w-full shadow-black shadow-lg bg-[url(/img/akbg2.png)] sm:bg-cover bg-contain rounded-[40px]'></div>
-            
+            {/*  work on responsiveness of the image */}
+            <div className='h-full w-full shadow-black shadow-lg bg-[url(/img/akbg2.png)] bg-cover bg-center md:bg-center rounded-[40px]'></div>
         </div>
     );
 }

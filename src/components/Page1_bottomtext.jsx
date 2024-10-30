@@ -29,16 +29,16 @@ export class Page1_bottomtext extends Component {
           <h1 className='font-[anzo2]'>GRAPHICS DESIGN | WEBSITE DESIGN</h1>
           <h1 className='font-[anzo3] leading-'>GDSC Member'23-24 | MITA'26</h1>
         </div>
-        <div className='flex flex-col mt-[-10vh]'>
+        <div className='flex flex-col   mt-[-10vh] md:mt-[-20vh] xl:mt-[-10vh]'>
           <img
             ref={(el) => (this.img1 = el)}
-            className='mb-5 w-[94px] '
+            className='mb-5 w-[80px] md:w-[94px] '
             src='/img/gdsc.png'
             alt='Image 1'
           />
           <img
             ref={(el) => (this.img2 = el)}
-            className='w-[94px]'
+            className='w-[80px] md:w-[94px]'
             src='/img/cp.png'
             alt='Image 2'
           />

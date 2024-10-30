@@ -6,7 +6,7 @@ function Tilttext(props) {
         <div
             id='tiltdiv'
             ref={props.r}
-            className='text-white text-left font-[anzo2] text-[3vw] mt-56'
+            className='text-white text-left font-[anzo2] text-[3vw] mt-80   md:mt-56'
             style={{ transform: 'rotateY(0deg) rotateX(0deg)' }}
 
         >
