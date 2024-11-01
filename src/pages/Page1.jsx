@@ -37,7 +37,7 @@ function Page1() {
             className='h-screen w-full bg-white px-4 py-5'
         >
             <div id='page1-in' className='absolute py-11 px-10 md:px-16 w-full'>
-                <img className='h-10 md:h-20 ' src='/img/ak.png' alt='' />
+                <a href="/"><img className='h-10 md:h-20 ' src='/img/ak.png' alt='' /></a>
                 <Tilttext r={tiltRef}/>
 
                 <Page1_bottomtext />
